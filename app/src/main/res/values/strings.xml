@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Liquid Pay Test App</string>
+    <string name="home_activity_title">User Collection</string>
+    <string name="album_activity_title">Albums</string>
+
+    <string name="text_title_intro_1">Stay Connect</string>
+    <string name="text_title_intro_2">Share Moment</string>
+    <string name="text_title_intro_3">Find Passion</string>
+
+    <string name="text_desc_intro_1">The easiest way to find connection</string>
+    <string name="text_desc_intro_2">Find a good picture, shared in between your friends</string>
+    <string name="text_desc_intro_3">Express your passion through good picture</string>
+
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <string name="error_api_user">Unable to retrieve User\'s at the moment</string>
+    <string name="error_api_album">Unable to retrieve Albums at the moment</string>
+    <string name="error_api_album_photo">Unable to retrieve album photos at the moment</string>
+</resources>

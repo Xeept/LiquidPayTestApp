@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:padding="8dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        tools:text="Name"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/name"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+        tools:text="Username"/>
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/name"
+        android:layout_below="@id/name"
+        android:gravity="center_vertical|end"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        tools:text="Phone Number"/>
+</RelativeLayout>
